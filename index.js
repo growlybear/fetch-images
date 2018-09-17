@@ -22,8 +22,8 @@ const dest = '/dest'
 // then recreate it for re-population
 if (fs.existsSync(`.${dest}`)) {
   rimraf.sync(`.${dest}`)
-  fs.mkdirSync(`.${dest}`)
 }
+fs.mkdirSync(`.${dest}`)
 
 // map over the sample image urls, download each file to disk
 images.map((image) => {
