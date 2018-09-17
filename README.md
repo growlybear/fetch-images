@@ -1,2 +1,7 @@
 # fetch-images
-Fetch some sample images for testing purposes
+Small utility to fetch some sample images
+
+```
+npm install
+node .
+```
